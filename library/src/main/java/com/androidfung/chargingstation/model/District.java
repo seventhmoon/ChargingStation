@@ -9,6 +9,14 @@ import org.simpleframework.xml.Root;
 @Root (name="district")
 public class District {
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Element (name="name")
     private String name;
 }

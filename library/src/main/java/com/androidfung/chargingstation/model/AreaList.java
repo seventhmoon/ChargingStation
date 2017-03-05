@@ -13,4 +13,12 @@ public class AreaList {
 
     @ElementList(inline = true, name="area")
     private List<Area> areas;
+
+    public List<Area> getAreas() {
+        return areas;
+    }
+
+    public void setAreas(List<Area> areas) {
+        this.areas = areas;
+    }
 }

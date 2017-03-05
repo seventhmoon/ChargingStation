@@ -13,4 +13,12 @@ import java.util.List;
 public class DistrictList {
     @ElementList(inline = true, name="district", required = false)
     private List<District> districts;
+
+    public List<District> getDistricts() {
+        return districts;
+    }
+
+    public void setDistricts(List<District> districts) {
+        this.districts = districts;
+    }
 }

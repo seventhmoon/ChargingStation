@@ -14,7 +14,23 @@ public class Area {
 
     @Element (name="districtList", required=false)
     private DistrictList districtList;
-//
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public DistrictList getDistrictList() {
+        return districtList;
+    }
+
+    public void setDistrictList(DistrictList districtList) {
+        this.districtList = districtList;
+    }
+    //
 //    @Element (name="district", required = false)
 //    private District district;
 
