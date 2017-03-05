@@ -31,6 +31,6 @@ public interface ClpChargingStationService {
 
 
     @GET("GetChargingSectionXML.aspx")
-    Call<ChargingStationData> getEtaList(@Query("lang") @Language String language);
+    Call<ChargingStationData> getChargingStationData(@Query("lang") @Language String language);
 
 }
